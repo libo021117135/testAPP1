@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RootLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	    
+
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.0"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="作者：021117135 李波"
+			android:textSize="@dimen/TextSizeNormal"
+			android:layout_marginTop="10dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="联系方式：2894609595"
+			android:textSize="@dimen/TextSizeNormal"
+			android:layout_marginTop="10dp"/>
+
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="邮箱：2894609595@qq.com"
+            android:textSize="@dimen/TextSizeNormal"
+            android:layout_marginTop="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
